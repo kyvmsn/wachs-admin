@@ -1,0 +1,32 @@
+//
+// Aside User
+//
+
+
+
+.kt-aside-user {
+    padding: 18px;
+
+    .kt-aside-user__wrapper {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .kt-aside-user__details {
+        line-height: 1.2em;
+        padding: 0 12px;
+
+        .kt-aside-user__name {
+            font-size: 14px;
+            font-weight: 500;
+            color: kt-base-color("wachs", "greyDark")
+        }
+
+        .kt-aside-user__position {
+            font-size: 12px;
+            line-height: 20px;
+            color: kt-base-color( "wachs", "grey" )
+        }
+    }
+}

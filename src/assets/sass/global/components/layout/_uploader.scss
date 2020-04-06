@@ -1,0 +1,49 @@
+.uploader {
+    font-weight: bold;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    color: #405568;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #adbbc8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .5s ease;
+    min-height: 2em;
+    padding: 1em 0;
+
+    &:hover {
+        background: #E9F0FB;
+    }
+
+    &.block {
+        width: 100%;
+    }
+
+    &.medium {
+        min-height: 175px;
+    }
+
+    &.big {
+        min-height: 260px;
+    }
+
+    &.grey {
+        font-weight: normal;
+        background: #f2f5f7;
+    }
+
+    &.resize {
+        height: calc(100% - 45px);
+        margin-top: 20px;
+    }
+
+    .icon {
+        font-size: 40px;
+        display: inline-block;
+        margin-bottom: .4em;
+    }
+}
