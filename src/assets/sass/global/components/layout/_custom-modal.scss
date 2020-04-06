@@ -1,4 +1,26 @@
 .modal {
+    .modal-content {
+        padding: 10px 10px 0 10px;
+
+        .modal-body {
+            padding-bottom: 0;
+        }
+    }
+
+    .form-group {
+        label {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        label, .form-control {
+            font-size: 14px;
+            line-height: 22px;
+        }
+        .form-control {
+            min-height: 42px;
+        }
+    }
+
     &.custom-modal {
         .modal-header, .modal-footer {
             border: none;

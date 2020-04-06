@@ -1,0 +1,37 @@
+.custom-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 0;
+    margin: 0;
+
+    li {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 22px;
+        color: #ADBBC8;
+        list-style: none;
+        border: 1px solid #ADBBC8;
+        border-left: none;
+
+        &:first-child {
+            border-left: 1px solid #ADBBC8;
+        }
+
+        &.active {
+            font-size: 14px;
+            color: #fff;
+            background: kt-brand-color();
+            border-color: kt-brand-color();
+            padding: 2px 8px;
+        }
+
+        a {
+            display: flex;
+            align-self: stretch;
+            color: #ADBBC8;
+            padding: 2px 8px;
+        }
+    }
+}
